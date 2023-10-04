@@ -1,4 +1,5 @@
 import React from 'react'
+import contact from "/public/images/contact.svg"
 import styles from "./ContactForm.module.css"
 import Button from '../Button/Button'
 import {MdMessage} from "react-icons/md"
@@ -60,7 +61,7 @@ const ContactForm = () => {
 
        </div>
        <div style={{height:"500px", width:"300px", marginBottom:"200px", marginLeft:"20px"}} className={styles.contact_image}>
-         <img src="./public/images/contact.svg" alt="contact " />
+         <img src={contact} alt="contact " />
        </div>
     </section>
   )
